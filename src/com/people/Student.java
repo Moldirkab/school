@@ -7,8 +7,6 @@ public class Student extends Person {
     private int studentID;
     private ArrayList<Integer> grades;
 
-    public Student(String name, String surname, int age, String gender){
-        super(name, surname, age, gender);
         this.studentID = id_gen++;
         grades=new ArrayList<>();
     }
@@ -27,6 +25,5 @@ public class Student extends Person {
     }
     @Override
     public String toString() {
-        return super.toString()+ "I am a student with ID "+ studentID;
     }
 }

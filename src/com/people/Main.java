@@ -16,7 +16,6 @@ public class Main {
             String surname = scanner.next();
             int age = Integer.parseInt(scanner.next());
             String gender = scanner.next();
-            Student student = new Student(name, surname, age, gender);
             while (scanner.hasNextInt()) {
                 student.addGrade(scanner.nextInt());
             }
@@ -31,7 +30,6 @@ public class Main {
             String subject=scanner2.next();
             int yearsOfExperience = Integer.parseInt(scanner2.next());
             int salary=Integer.parseInt(scanner2.next());
-            Teacher teacher = new Teacher(name, surname, age, gender, subject, yearsOfExperience, salary);
             school.addMember(teacher);
 
         }
