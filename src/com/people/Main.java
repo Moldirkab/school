@@ -50,7 +50,7 @@ public class Main {
             }
         }
         school.bubbleSort();
-        System.out.println("\nThe list of people who study or work at the school:");
+        System.out.println("\nThe list of people who work or study at the schooll:");
         school.print();
 
 
