@@ -7,6 +7,7 @@ public class Student extends Person {
     private int studentID;
     private String studentName;
     private String studentGender;
+    private String studentAge;
     private ArrayList<Integer> grades;
 
         this.studentID = id_gen++;
