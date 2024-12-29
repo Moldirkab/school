@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class Student extends Person {
     private static int id_gen=1;
     private int studentID;
+    private String studentName;
     private ArrayList<Integer> grades;
 
         this.studentID = id_gen++;
