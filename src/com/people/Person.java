@@ -4,7 +4,7 @@ public class Person {
     private String name;
     private String surname;
     private int age;
-
+//constructor for person
 
 
         this.name = name;

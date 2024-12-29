@@ -6,7 +6,7 @@ public class Teacher extends Person{
     private double salary;
     private double years;
     private double percentage;
-
+//constructor for teacher
         this.subject = subject;
         this.yearsOfExperience = yearsOfExperience;
         this.salary = salary;

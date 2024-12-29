@@ -9,7 +9,7 @@ public class Student extends Person {
     private String studentGender;
     private String studentAge;
     private ArrayList<Integer> grades;
-
+    //constructor for Student class
         this.studentID = id_gen++;
         grades=new ArrayList<>();
     }
